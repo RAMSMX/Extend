@@ -66,7 +66,7 @@ Here's an example:
     this.BMW_M3 = BMW_M3;
 
     (new BMW_M3).start();
-    // -> Car BMW(2013) has been started.
+    // -> Car BMW(2013) M3 has been started.
     (new BMW_M3).horsePower;
     // -> 500
 
