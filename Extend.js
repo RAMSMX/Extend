@@ -56,7 +56,7 @@
         };
         // Allow overriding of methods
         Child.Override = function (protoProps) {
-            return apply(this, protoProps);
+            return apply(this.prototype, protoProps);
         };
         return Child;
     }
